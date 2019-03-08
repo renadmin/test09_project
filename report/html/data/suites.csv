@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"passed","scripts.test_all.TestAll.test_a3","1",""
+"passed","scripts.test_all.TestAll.test_al","12",""
+"failed","scripts.test_all.TestAll.test_a2","66",""

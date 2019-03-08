@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-TSGPV78",
+    "children" : [ {
+      "name" : "9616-MainThread",
+      "children" : [ {
+        "name" : "TestAll.test_a3",
+        "uid" : "152b057e07408ee4",
+        "parentUid" : "96e7e4268a468b912536ff51d73e4095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1552014610253,
+          "stop" : 1552014610254,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAll.test_al",
+        "uid" : "ad0af6b9283f8886",
+        "parentUid" : "96e7e4268a468b912536ff51d73e4095",
+        "status" : "passed",
+        "time" : {
+          "start" : 1552014610173,
+          "stop" : 1552014610185,
+          "duration" : 12
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestAll.test_a2",
+        "uid" : "a90a912e5ccacadb",
+        "parentUid" : "96e7e4268a468b912536ff51d73e4095",
+        "status" : "failed",
+        "time" : {
+          "start" : 1552014610186,
+          "stop" : 1552014610252,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "96e7e4268a468b912536ff51d73e4095"
+    } ],
+    "uid" : "381c6bf8ea39d56fd41b73a813d560c2"
+  } ]
+}

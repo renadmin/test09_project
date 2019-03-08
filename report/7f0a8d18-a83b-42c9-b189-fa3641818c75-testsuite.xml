@@ -1,0 +1,52 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1552014610173" stop="1552014610254">
+  <name>scripts.test_all</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1552014610173" status="passed" stop="1552014610185">
+      <name>TestAll.test_al</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9616-MainThread"/>
+        <label name="host" value="DESKTOP-TSGPV78"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1552014610186" status="failed" stop="1552014610252">
+      <name>TestAll.test_a2</name>
+      <failure>
+        <message>AssertionError: assert 0</message>
+        <stack-trace>self = &lt;scripts.test_all.TestAll object at 0x0000025FF1A2D2E8&gt;
+
+    def test_a2(self):
+&gt;       assert 0
+E       assert 0
+
+scripts\test_all.py:6: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9616-MainThread"/>
+        <label name="host" value="DESKTOP-TSGPV78"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1552014610253" status="passed" stop="1552014610254">
+      <name>TestAll.test_a3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="9616-MainThread"/>
+        <label name="host" value="DESKTOP-TSGPV78"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

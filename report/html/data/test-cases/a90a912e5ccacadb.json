@@ -1,0 +1,66 @@
+{
+  "uid" : "a90a912e5ccacadb",
+  "name" : "TestAll.test_a2",
+  "fullName" : "scripts.test_all.TestAll.test_a2",
+  "historyId" : "e300ed75b1b203219d57129065eb63ad",
+  "time" : {
+    "start" : 1552014610186,
+    "stop" : 1552014610252,
+    "duration" : 66
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_all.TestAll object at 0x0000025FF1A2D2E8>\n\n    def test_a2(self):\n>       assert 0\nE       assert 0\n\nscripts\\test_all.py:6: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-TSGPV78"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "9616-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts.test_all"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts.test_all"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAll.test_a2"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_all"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a90a912e5ccacadb.json",
+  "parameterValues" : [ ]
+}
